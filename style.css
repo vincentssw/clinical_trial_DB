@@ -1,0 +1,17 @@
+.item-area {
+    border-bottom : 1px solid gray;
+    margin:5px;
+    padding:5px;
+}
+
+.arrow {
+    cursor:pointer;
+}
+
+.arrow:hover {
+    background-color: lightblue;
+}
+
+.w-10 {
+    width:10%;
+}
