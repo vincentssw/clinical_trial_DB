@@ -9,9 +9,40 @@
 }
 
 .arrow:hover {
-    background-color: lightblue;
+    background-color: #7bed9f;
 }
 
 .w-10 {
     width:10%;
+}
+
+main {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+#item-board div {
+    border-bottom: gray;
+}
+
+.col-2 {
+    border-bottom: gray;
+}
+
+.navbar {
+    background-color: #ecf0f1;
+}
+
+footer {
+    height: 50px;
+    position : relative;
+    transform : translateY(-100%);
+  
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }

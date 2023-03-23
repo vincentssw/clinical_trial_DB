@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="container">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">임상시험 DB</a>
         <button
@@ -76,29 +76,36 @@
         </div>
       </div>
     </nav>
+    <main>
+      <section id="item-board">
+        <h3 class="text-center align-center mt-5" id="sub-main">검색어를 입력하세요</h3>
+        <table class="table mt-5">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">주체</th>
+              <th scope="col">Trial ID</th>
+              <th scope="col">Title(국문)</th>
+              <th scope="col">연구등록일</th>
+              <th scope="col">연구종류</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider" id="item-table">
+            <tr></tr>
+          </tbody>
+        </table>
+      </section>
+  
+      <nav aria-label="Page navigation example text-center">
+        <ul class="pagination d-flex justify-content-center mt-5"></ul>
+      </nav>
+    </main>
+    
 
-    <section id="item-board">
-      <h3 class="text-center align-center mt-5" id="sub-main">검색어를 입력하세요</h3>
-      <table class="table mt-5">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">주체</th>
-            <th scope="col">Trial ID</th>
-            <th scope="col">Title(국문)</th>
-            <th scope="col">연구등록일</th>
-            <th scope="col">연구종류</th>
-          </tr>
-        </thead>
-        <tbody class="table-group-divider" id="item-table">
-          <tr></tr>
-        </tbody>
-      </table>
-    </section>
-
-    <nav aria-label="Page navigation example text-center">
-      <ul class="pagination d-flex justify-content-center mt-5"></ul>
-    </nav>
+    <footer class="container">
+      <div>Made by vincentssw@gmail.com</div>
+      <div>DB : 임상연구정보 OpenAPI (질병관리청)</div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

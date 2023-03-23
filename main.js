@@ -98,96 +98,96 @@ const renderDetail = () => {
                 </h4>
             </div>
             <div class="row mt-4 mb-2">
-                <div class=col-lg-2>
+                <div class=col-2>
                 CRIS 고유 번호
                 </div>
-                <div class=col-lg-10>
+                <div class=col-10>
                 ${item_detail.trial_id}
                 </div>
             </div>
             <div class="row mb-2">
-                <div class=col-lg-2>
+                <div class=col-2>
                 연구등록일
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.date_registration}
                 </div>
-                <div class=col-lg-2>
+                <div class=col-2>
                 최종갱신일
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.date_updated}
                 </div>
             </div>
             <div class="row mb-2">
-                <div class=col-lg-2>
+                <div class=col-2>
                 연구책임자 기관명
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.affiliation_kr}
                 </div>
-                <div class=col-lg-2>
+                <div class=col-2>
                 연구책임자
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.scientific_name_kr}
                 </div>
             </div>
             <div class="row mb-2">
-                <div class=col-lg-2>
+                <div class=col-2>
                 전체연구모집현황
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.recruitment_status_kr}
                 </div>
-                <div class=col-lg-2>
+                <div class=col-2>
                 목표대상자 수 
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.target_size}
                 </div>
             </div>
             <div class="row mb-2">
-                <div class=col-lg-2>
+                <div class=col-2>
                 첫 연구대상자 등록일
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.date_enrolment}
                 </div>
-                <div class=col-lg-2>
+                <div class=col-2>
                 연구종료일 
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.results_date_completed}
                 </div>
             </div>    
             <div class="row mb-2">
-                <div class=col-lg-2>
+                <div class=col-2>
                 연구종류
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.study_type_kr}
                 </div>
-                <div class=col-lg-2>
+                <div class=col-2>
                 연구목적
                 </div>
-                <div class=col-lg-4>
+                <div class=col-4>
                 ${item_detail.primary_purpose_kr}
                 </div>
             </div>                                                                                                                   
             <div class="row mt-5 mb-2">
-                <div class=col-lg-2>
+                <div class=col-2>
                 연구 요약
                 </div>
-                <div class=col-lg-10>
+                <div class=col-10>
                 ${handleNewLines(item_detail.study_summary_kr)}
                 </div>
             </div>
             <div class="row mt-5 mb-2">
-                <div class=col-lg-2>
+                <div class=col-2>
                 Summary 
                 </div>
-                <div class=col-lg-10>
+                <div class=col-10>
                 ${handleNewLines(item_detail.study_summary_en)}
                 </div>
             </div>
